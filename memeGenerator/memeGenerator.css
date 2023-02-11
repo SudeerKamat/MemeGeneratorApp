@@ -1,0 +1,39 @@
+:host{
+    --slds-c-button-radius-border:21px;
+    --slds-c-button-color-background:#355d96;
+    --slds-c-button-color-background-hover:#355d96;
+    --slds-c-button-neutral-color-background:#355d96;
+    --slds-c-button-neutral-color-background-hover:#355d96;
+    --slds-c-button-text-color:#ffffff;
+    --slds-c-button-text-color-hover:#ffffff;
+}
+
+.container {
+    width: 80%;
+    max-width: 37.5em;
+    padding: 2em 1.5em;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 21px;
+    box-shadow: 0 1.4em 3em rgba(20, 16, 39, 0.3);
+  }
+  .container img {
+    display: block;
+    height: 38em;
+    max-width: 100%;
+    margin: 0 auto 1em auto;
+  }
+  .container h3 {
+    display: block;
+    font-size: 1.5em;
+    margin: 0.5em auto 1em auto;
+    width: 70%;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    color: #737081;
+    letter-spacing: 0.03em;
+  }
